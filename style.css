@@ -20,6 +20,12 @@
     background-color: white;
     
   }
+  .text-color{
+      color :black;
+  }
+  .active, .text-color:hover {
+    color: #FFC733;
+  }
   
 
   /* #fontend {
