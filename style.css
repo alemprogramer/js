@@ -1,0 +1,49 @@
+.color {
+    color: #FFC733
+  }
+
+  #myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #FFC733;
+    margin-top: 20px;
+  }
+  #mycls{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    /* background-color: #FFC733;? */
+    margin-top: 20px;
+  }
+  .iot{
+    background-color: white;
+    
+  }
+  
+
+  /* #fontend {
+    width: 50%;
+    margin-left: 28%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: width;
+    margin-top: 20px;
+  } */
+  .box {
+    width: 50%;
+    margin-left: 26%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: width;
+    margin-top: 20px;
+  }
+
+  .box_img {
+    width: 70%;
+    /* margin-left: 26%; */
+    padding: 50px 0;
+    text-align: center;
+    background-color: width;
+    margin-top: 20px;
+  }

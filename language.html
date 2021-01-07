@@ -10,46 +10,58 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <style>
-    .color {
-      color: #FFC733
-    }
+    <link rel="stylesheet" href="style.css">
 
-    #myDIV {
-      width: 100%;
-      padding: 50px 0;
-      text-align: center;
-      /* background-color: #FFC733; */
-      margin-top: 20px;
-
-    }
-
-  </style>
 </head>
 
 <body>
   <!-- <h1 class="text-center mt-5" onclick="show()"><b>Why learn <b class="color">j</b>ava<b class="color">S</b>cript <b class="color">!</b></b></b></h1> -->
-  <h1 class="text-center mt-5" onclick="show()" style="cursor: pointer;"><b> Is JavaScript  Number One Language<b class="color">?</b></b></b></h1>
+  <h1 class="text-center mt-5" onclick="show()" style="cursor: pointer;"><b> Is JavaScript Number One Language<b
+        class="color">?</b></b></b></h1>
 
-  <div id="myDIV">
-    <a class="text-decoration-none text-dark" href="https://insights.stackoverflow.com/survey/2020#technology-other-frameworks-libraries-and-tools-all-respondents3" target="_blank"><h3> 1.Libraries, and Tools</h3></a><br>
+  <div id="mycls">
+    <a class="text-decoration-none text-dark"
+      href="https://insights.stackoverflow.com/survey/2020#technology-other-frameworks-libraries-and-tools-all-respondents3"
+      target="_blank">
+      <h3> 1.Libraries, and Tools</h3>
+    </a><br>
 
-    <a class="text-decoration-none text-dark" href="https://insights.stackoverflow.com/survey/2020#technology-how-technologies-are-connected" target="_blank"><h3> 2.Correlated Technologies</h3></a><br>
- 
-    <a class="text-decoration-none text-dark" href="https://octoverse.github.com/" target="_blank"><h3> 3. Top languages over the years in github</h3></a><br>
-   
-    <a class="text-decoration-none text-dark" href="https://pypl.github.io/PYPL.html" target="_blank"><h3> 4.  PYPL PopularitY of Programming Language</h3></a><br>
+    <a class="text-decoration-none text-dark"
+      href="https://insights.stackoverflow.com/survey/2020#technology-how-technologies-are-connected" target="_blank">
+      <h3> 2.Correlated Technologies</h3>
+    </a><br>
 
-    <a class="text-decoration-none text-dark" href="https://insights.stackoverflow.com/survey/2020#technology-web-frameworks-all-respondents2" target="_blank"><h3> 5.  Most Popular Web Frameworks in stackoverflow</h3></a><br>
-    
-    <a class="text-decoration-none text-dark" href="https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved" target="_blank"><h3> 6.Most Loved, Dreaded, and Wanted Web Frameworks</h3></a><br>
+    <a class="text-decoration-none text-dark" href="https://octoverse.github.com/" target="_blank">
+      <h3> 3. Top languages over the years in github</h3>
+    </a><br>
 
-    <a class="text-decoration-none text-dark" href="https://trends.google.com/trends/explore?geo=US&q=%2Fm%2F02p97" target="_blank"><h3> 7.The trending of JavaScript is relatively stable, as shown by Google Trends</h3></a><br>
-    
-    <a class="text-decoration-none text-dark" href="https://www.google.com/search?q=top+10+in-demand+programming+languages+to+learn+in+2020&oq=Top+10+In-Demand+programming+languages+to+learn+in+2020&aqs=chrome.0.0i457j69i60.912j0j7&sourceid=chrome&ie=UTF-8" target="_blank"><h3> 8.Google Scarch result top 10 in-demand programming languages to learn in 2020</h3></a><br>
-    
+    <a class="text-decoration-none text-dark" href="https://pypl.github.io/PYPL.html" target="_blank">
+      <h3> 4. PYPL PopularitY of Programming Language</h3>
+    </a><br>
+
+    <a class="text-decoration-none text-dark"
+      href="https://insights.stackoverflow.com/survey/2020#technology-web-frameworks-all-respondents2" target="_blank">
+      <h3> 5. Most Popular Web Frameworks in stackoverflow</h3>
+    </a><br>
+
+    <a class="text-decoration-none text-dark"
+      href="https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved"
+      target="_blank">
+      <h3> 6.Most Loved, Dreaded, and Wanted Web Frameworks</h3>
+    </a><br>
+
+    <a class="text-decoration-none text-dark" href="https://trends.google.com/trends/explore?geo=US&q=%2Fm%2F02p97"
+      target="_blank">
+      <h3> 7.The trending of JavaScript is relatively stable, as shown by Google Trends</h3>
+    </a><br>
+
+    <a class="text-decoration-none text-dark"
+      href="https://www.google.com/search?q=top+10+in-demand+programming+languages+to+learn+in+2020&oq=Top+10+In-Demand+programming+languages+to+learn+in+2020&aqs=chrome.0.0i457j69i60.912j0j7&sourceid=chrome&ie=UTF-8"
+      target="_blank">
+      <h3> 8.Google Scarch result top 10 in-demand programming languages to learn in 2020</h3>
+    </a><br>
+
   </div>
- 
 
 
 
@@ -58,90 +70,12 @@
 
 
 
-  <script>
-    function showit(myDIV) {
-      if (myDIV.style.display === "none") {
-        myDIV.style.display = "block";
-      } else {
-        myDIV.style.display = "none";
-      }
-    }
-
-    function show() {
-      var myDIV = document.getElementById("myDIV");
-      showit(myDIV);
-      // fontend();
-      // setTimeout(fontend, 5000)
-    }
-    show();
-  //  fontend();
-  //   show();
-  //   backend();
-  //   database();
-  //   mobile();
-  //   // fight();
-  //   fnd();
-  //   desktop();
-  //   iot();
-
-  //   function fontend() {
-  //     var fontend = document.getElementById("fontend");
-  //     showit(fontend);
-  //   }
-  //   function backend() {
-  //     var backend = document.getElementById("backend");
-  //     showit(backend);
-  //   }
-  //   function database() {
-  //     var database = document.getElementById("database");
-  //     showit(database);
-  //   }
-  //   function mobile() {
-  //     var mobile = document.getElementById("mobile");
-  //     showit(mobile);
-  //   }
-  //   // function fight() {
-  //   //   console.log("hrer");
-  //   //   var fight = document.getElementById("fight");
-  //   //   showit(fight);
-  //   // }
-  //   function fnd() {
-  //     var fnd = document.getElementById("fnd");
-  //     showit(fnd);
-  //   }
-  //   function desktop() {
-  //     var desktop = document.getElementById("desktop");
-  //     showit(desktop);
-  //   }
-  //   var i=1;
-  //   function iot() {
-      
-     
-     
-
-  //     var iot = document.getElementById("iot");
-  //     // iot.style.backgroundColor = "#FFFF";
-  //     showit(iot);
-  //   }
-  </script>
 
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+
+  <!-- <script type="text/javascript" src="index.js"></script> -->
+  <script type="text/javascript" src="language.js"></script>
+
 </body>
 
 </html>
-
-
-
-
-

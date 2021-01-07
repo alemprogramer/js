@@ -10,50 +10,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <style>
-    .color {
-      color: #FFC733
-    }
-
-    #myDIV {
-      width: 100%;
-      padding: 50px 0;
-      text-align: center;
-      background-color: #FFC733;
-      margin-top: 20px;
-    }
-    .iot{
-      background-color: white;
-      
-    }
-    
-
-    /* #fontend {
-      width: 50%;
-      margin-left: 28%;
-      padding: 50px 0;
-      text-align: center;
-      background-color: width;
-      margin-top: 20px;
-    } */
-    .box {
-      width: 50%;
-      margin-left: 26%;
-      padding: 50px 0;
-      text-align: center;
-      background-color: width;
-      margin-top: 20px;
-    }
-
-    .box_img {
-      width: 70%;
-      /* margin-left: 26%; */
-      padding: 50px 0;
-      text-align: center;
-      background-color: width;
-      margin-top: 20px;
-    }
-  </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -63,40 +20,40 @@
   <div id="myDIV">
     
     <h3 onclick="fontend()">1. Fontend .<br>
-      <img class="box" id="fontend" src="fontend.png" alt="Fontenf">
+      <img class="box" id="fontend" src="image/fontend.png" alt="Fontenf">
     </h3>
   
     
     <h3 onclick="backend()">2. Backend.<br>
-      <img class="box" id="backend" src="backend.png" alt="Backend">
+      <img class="box" id="backend" src="image/backend.png" alt="Backend">
     </h3>
     
     
     <h3 onclick="database()">3. Database<br>
-      <img class="box" id="database" src="database.png" alt="Database">
+      <img class="box" id="database" src="image/database.png" alt="Database">
     </h3>
     
     
     <h3 onclick="mobile()">4. mobile  ..<b style="color:#FFC733">.. </b><br>
-      <img class="box" id="mobile" onclick="fnd()" src="mobile.png" alt="Mobile">
+      <img class="box" id="mobile" onclick="fnd()" src="image/mobile.png" alt="Mobile">
       <!-- <img class="box" id="fight" onclick="fnd()"src="fight.jpg" alt="Mobile"> -->
-      <img class="box" id="fnd" src="fnd.jpg" alt="Mobile">
+      <img class="box" id="fnd" src="image/fnd.jpg" alt="Mobile">
     </h3>
     
     
     <h3 onclick="desktop()">5. Desktop .<br>
       <div id="desktop" >
         <div class="row" >
-          <div class="col-4" > <img onclick="allOs()" class="box_img" src="electron.png" alt="desktop"></div>
-          <div class="col-4"> <img class="box_img" src="meteor.png" alt="desktop"></div>
-          <div class="col-4"><img class="box_img" src="nwjs.png" alt="desktop"></div>
+          <div class="col-4" > <img onclick="allOs()" class="box_img" src="image/electron.png" alt="desktop"></div>
+          <div class="col-4"> <img class="box_img" src="image/meteor.png" alt="desktop"></div>
+          <div class="col-4"><img class="box_img" src="image/nwjs.png" alt="desktop"></div>
         </div>
         <div class="row">
-          <div class="col-6"><img class="box_img" src="proton-native.png" alt="desktop"></div>
-          <div class="col-6"><img class="box_img" src="appjs.png" alt="desktop"> </div>
+          <div class="col-6"><img class="box_img" src="image/proton-native.png" alt="desktop"></div>
+          <div class="col-6"><img class="box_img" src="image/appjs.png" alt="desktop"> </div>
         </div>
       </div>
-      <img class="box" id="allOs" src="allos.jpg" alt="Mobile">
+      <img class="box" id="allOs" src="image/allos.jpg" alt="Mobile">
     </h3>
     
     
@@ -104,13 +61,11 @@
       <div id="iot">
       <div class="row" >
         
-        <div class="col-6 iot"><img class="box_img" src="maxresdefault.jpg" alt="IOT"> </div>
-        <div class="col-6 iot"><img class="box_img" src="iot.png" alt="IOT"></div>
+        <div class="col-6 iot"><img class="box_img" src="image/maxresdefault.jpg" alt="IOT"> </div>
+        <div class="col-6 iot"><img class="box_img" src="image/iot.png" alt="IOT"></div>
         
       </div>
       </div>
-
-      
     </h3>
     
   
@@ -123,77 +78,7 @@
 
 
 
-
-
-
-  <script>
-    function showit(myDIV) {
-      if (myDIV.style.display === "none") {
-        myDIV.style.display = "block";
-      } else {
-        myDIV.style.display = "none";
-      }
-    }
-
-    function show() {
-      var myDIV = document.getElementById("myDIV");
-      showit(myDIV);
-      // fontend();
-      // setTimeout(fontend, 5000)
-    }
-   fontend();
-    show();
-    backend();
-    database();
-    mobile();
-    // fight();
-    fnd();
-    desktop();
-    iot();
-    allOs();
-    function fontend() {
-      var fontend = document.getElementById("fontend");
-      showit(fontend);
-    }
-    function backend() {
-      var backend = document.getElementById("backend");
-      showit(backend);
-    }
-    function database() {
-      var database = document.getElementById("database");
-      showit(database);
-    }
-    function mobile() {
-      var mobile = document.getElementById("mobile");
-      showit(mobile);
-    }
-    // function fight() {
-    //   console.log("hrer");
-    //   var fight = document.getElementById("fight");
-    //   showit(fight);
-    // }
-    function fnd() {
-      var fnd = document.getElementById("fnd");
-      showit(fnd);
-    }
-    function desktop() {
-      var desktop = document.getElementById("desktop");
-      showit(desktop);
-    }
-    function iot() {
-      var iot = document.getElementById("iot");
-      var next = document.getElementById("next");
-      showit(iot);
-      showit(next);
-    }
-    function allOs() {
-      var allOs = document.getElementById("allOs");
-      showit(allOs);
-    }
-  </script>
-
-
-
+    <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>
