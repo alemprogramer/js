@@ -10,8 +10,13 @@ function show() {
     var myDIV = document.getElementById("mycls");
     showit(myDIV);
 }
+function next() {
+    var next = document.getElementById("next");
+    showit(next);
+}
 
 show();
+next();
 setTimeout(show, 25000);
 
 var header = document.getElementById("mycls");

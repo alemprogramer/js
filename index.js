@@ -7,13 +7,15 @@ function showit(myDIV) {
 }
 
 function show() {
+    console.log('show');
     var myDIV = document.getElementById("myDIV");
     showit(myDIV);
-    // fontend();
-    // setTimeout(fontend, 5000)
+    setTimeout(fontend, 5000);
 }
 
+
 function fontend() {
+    console.log('Working');
     var fontend = document.getElementById("fontend");
     showit(fontend);
 }
@@ -59,7 +61,7 @@ function allOs() {
     showit(allOs);
 }
 show();
-fontend();
+// fontend();
 backend();
 database();
 mobile();

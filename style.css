@@ -1,3 +1,22 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.bg {
+  /* The image used */
+   background-image: url("image/JS--NEW.jpg");
+   /* background-image: url("image/js_is_everywhere.png"); */
+
+  /* Full height */
+   height: 100%; 
+
+  /* Center and scale the image nicely */
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+} 
 .color {
     color: #FFC733
   }
@@ -53,3 +72,15 @@
     background-color: width;
     margin-top: 20px;
   }
+
+  .tec-color{
+    color: black;
+    text-decoration: none;
+    
+  }
+  .tec-color:hover{
+    color: black;
+  }
+  /* html {
+    scroll-behavior: smooth;
+  } */
