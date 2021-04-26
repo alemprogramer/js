@@ -14,7 +14,13 @@ var i = 0;
 function next() {
 
     var next = document.getElementById("next");
-    var def = document.getElementById("def")
+    var def = document.getElementById("def");
+    var imgID = document.getElementById("img");
+    let img = `<img src="/image/JavaScript-Versions.png" alt = "JavaScript-vision">`
+    
+    
+
+    imgID.innerHTML = (i==1)? img: ' ';
 
     def.innerHTML = (i==0)? str: ' ';
     next.innerHTML = arr[i];
