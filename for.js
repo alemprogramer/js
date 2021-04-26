@@ -16,7 +16,7 @@ function next() {
     var next = document.getElementById("next");
     var def = document.getElementById("def");
     var imgID = document.getElementById("img");
-    let img = `<img src="/image/JavaScript-Versions.png" alt = "JavaScript-vision">`
+    let img = `<img src="image/JavaScript-Versions.png" alt = "JavaScript-vision">`
     
     
 
